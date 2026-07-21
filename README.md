@@ -1,39 +1,27 @@
-# Rafi Portfolio Website
+# Rafi Portfolio Website — Redesign v2.2
 
-Responsive static portfolio website for Muhammed Rafi.
+Premium responsive static portfolio for Muhammed Rafi.
 
-## Preview locally
-Open `index.html`, or run:
+## Pages
+- Home, About, Projects, Experience, Blog, Downloads, EA Lab and Contact
+- AI Powered Cloud Security Platform case study
+- RC AI Cloud Security v1.3.1 Windows download, checksum and installation guide
+- AuRa X Signals case study
+- AuRa X News case study
+- AuRa X Prediction Tool case study
+- Tick volume vs exchange volume article
 
-```bash
-python -m http.server 8000
-```
+## Publish update to GitHub Pages
+1. Extract this ZIP.
+2. Open the `klrrafi20-crypto.github.io` repository.
+3. Upload the extracted files to the repository root and replace the old versions.
+4. Commit directly to `main`.
+5. GitHub Pages will deploy the updated design automatically.
 
-Then open `http://localhost:8000`.
+The RC installer is published at:
+`downloads/RC-AI-Cloud-Security-Platform-Windows-v1.3.1.zip`
 
-## Publish free with GitHub Pages
-1. Create a GitHub repository.
-2. Upload all files in this folder to the repository root.
-3. Open Settings → Pages.
-4. Choose “Deploy from a branch”.
-5. Select `main` and `/root`.
+Do not publish AWS keys, broker credentials, Android signing keys, private logs or trading account data.
 
-## Before publishing
-- Add a professional photograph later if desired.
-- Add screenshots of the AuRa X apps when ready.
-- Never upload AWS credentials, API keys, broker logins, Android signing keys, real AWS exports or private trading data.
-- Keep the EA store disabled until licensing, payment, risk disclosures and secure delivery are ready.
-
-
-## Public downloads
-The website now bundles:
-- AuRa X Signals Windows v1.8.1
-- AuRa X Signals Android v1.8.1
-- AuRa X News Windows v1.3
-- AuRa X News Android v1.2 bilingual
-- SHA-256 checksum manifest
-- Installation notes
-
-The EA Lab remains a Coming Later section. Do not upload EA binaries, Android signing keys, AWS secrets, broker credentials, private logs or trading-account data to a public repository.
-
-For long-term version distribution, move installers to GitHub Releases and replace the relative download links in `downloads.html`.
+## Profile wording update
+The portfolio identifies Muhammed Rafi as a final-year postgraduate student in Forensic Science with a Cyber Security specialization. It does not describe him as a graduate.
