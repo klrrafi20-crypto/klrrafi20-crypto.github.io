@@ -25,4 +25,4 @@ Do not publish AWS keys, broker credentials, Android signing keys, private logs 
 
 ## Profile wording update
 The portfolio identifies Muhammed Rafi as a final-year postgraduate student in Forensic Science with a Cyber Security specialization. It does not describe him as a graduate.
-The profile shows “Currently pursuing” and the last semester CGPA of 9.45.
+The profile shows “Currently pursuing” and “Last sem: 9.45.”
