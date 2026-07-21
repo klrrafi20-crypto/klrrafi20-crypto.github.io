@@ -1,0 +1,48 @@
+RAFI LABS — INSTALLATION NOTES
+
+RC AI POWERED CLOUD SECURITY PLATFORM
+Windows v1.3.1
+- Extract RC-AI-Cloud-Security-Platform-Windows-v1.3.1.zip completely.
+- Double-click Install_RC_CloudSec.bat. Do not run it inside the ZIP preview.
+- Use 64-bit Python 3.11 or 3.12 and keep internet connected for first installation.
+- Open RC AI Cloud Security from the new desktop shortcut.
+- Connect only a dedicated AWS identity. Never use the AWS root access key.
+- AKIA keys use Access Key + Secret Key with Session Token empty.
+- ASIA temporary credentials require Access Key + Secret Key + Session Token from the same session.
+- Use RCCloudSecReadOnlyPolicy.json for scanning.
+- RCCloudSecRemediationPolicy.json is optional and permits selected S3 and Security Group fixes; attach it only after approval.
+- Run fixes only on AWS accounts you own or are explicitly authorized to change.
+
+AURA X SIGNALS
+Windows v1.8.1
+- Extract the ZIP completely.
+- Read the included instructions.
+- Run the installer.
+- The Windows engine performs the live analysis.
+
+Android v1.8.1
+- Download and install the APK.
+- Allow installation from your browser or file manager when Android asks.
+- The phone app is a read-only companion and requires the Windows engine for live data.
+
+AURA X NEWS
+Windows v1.3
+- Extract the ZIP and run the included installer.
+
+Android v1.2
+- Install the bilingual APK.
+- News explanations are educational and do not guarantee market direction.
+
+SECURITY
+- Download only from the official portfolio page.
+- Compare the file SHA-256 value with SHA256-CHECKSUMS.txt.
+- Never install a modified copy from an unknown source.
+- No AWS credentials, broker passwords, signing keys, private logs or trading account data are included.
+- Never upload or publish the settings file, credential exports, access keys, session tokens or screenshots containing secrets.
+
+EA LAB
+- Expert Advisors are not included or sold in this release.
+- EA pricing and downloads will be published later after testing, licensing and delivery terms are ready.
+
+RISK NOTICE
+Trading tools are experimental research projects. They are not financial advice and do not guarantee profit.

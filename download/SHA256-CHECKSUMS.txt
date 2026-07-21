@@ -1,0 +1,26 @@
+RAFI LABS — SHA-256 RELEASE CHECKSUMS
+
+RC AI Powered Cloud Security Platform — Windows — v1.3.1
+File: RC-AI-Cloud-Security-Platform-Windows-v1.3.1.zip
+Size: 228931 bytes
+SHA-256: beeac539930b6bc3c7327b641c1d32364ab4842c51ac1411dff5cbbc3dd9621a
+
+AuRa X Signals — Windows — v1.8.1
+File: AuRa-X-Signals-Native-Desktop-Installer-v1.8.1.zip
+Size: 646921 bytes
+SHA-256: 6090a854d0949bd603765b25dc0b1b0ab3c3754781f06fe331666106008f1c8e
+
+AuRa X Signals — Android — v1.8.1
+File: AuRa-X-Signals-Mobile-v1.8.1.apk
+Size: 185226 bytes
+SHA-256: 50222d3a1987490e0a1353fb613c1b12334ee969d9be0f550ea379602a3f533c
+
+AuRa X News — Windows — v1.3
+File: AuRa-X-News-v1.3-Installer-Fixed.zip
+Size: 43449 bytes
+SHA-256: d50be22daba9e4653812a7bff2f87206e6a642e5472914a596ba5a53d3563f27
+
+AuRa X News — Android — v1.2
+File: AuRa-X-News-Mobile-v1.2-Bilingual-Live.apk
+Size: 49813 bytes
+SHA-256: fca6985a6492c816430ccaed4effe8d4a5620332d21e85b1471f30f46175e24c
