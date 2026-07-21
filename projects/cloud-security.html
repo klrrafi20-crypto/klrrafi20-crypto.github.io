@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Download the RC AI Powered Cloud Security Platform for Windows: AWS threat detection, CIEM, CSPM, IAM graphs, Zero Trust, guarded remediation and AI-assisted reporting."
+    />
+    <meta name="theme-color" content="#070910" />
+    <title>AI Powered Cloud Security Platform | Muhammed Rafi</title>
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="../index.html"
+          ><img src="../assets/favicon.svg" alt="" /><span
+            >Rafi Labs<small>Security × Markets</small></span
+          ></a
+        ><button class="menu" aria-label="Open menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="links">
+          <a class="" href="../index.html#about">About</a
+          ><a class="active" href="../index.html#projects">Projects</a
+          ><a class="" href="../index.html#experience">Experience</a
+          ><a class="" href="../index.html#blog">Blog</a
+          ><a class="" href="../downloads.html">Downloads</a
+          ><a class="" href="../index.html#ea">EA Lab</a
+          ><a class="" href="../index.html#contact">Contact</a
+          ><a
+            class="nav-cta"
+            href="../assets/Muhammed-Rafi-CV.pdf"
+            target="_blank"
+            rel="noopener"
+            >Resume</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumb">
+            <a href="../index.html">Home</a> / Projects
+          </div>
+          <h1>AI Powered Cloud Security Platform</h1>
+          <p class="hero-copy">
+            An AWS security platform combining ML, CIEM, CSPM, network analysis,
+            Zero Trust, guarded remediation and AI-assisted reporting.
+          </p>
+          <div class="pill-row">
+            <span class="pill">AWS</span><span class="pill">Python</span
+            ><span class="pill">Streamlit</span
+            ><span class="pill">scikit-learn</span
+            ><span class="pill">NetworkX</span><span class="pill">Gemini</span>
+            <span class="pill">Native Windows</span>
+            <span class="pill">Guarded fixes</span>
+          </div>
+        </div>
+      </section>
+      <section class="section" style="padding: 10px 0 24px">
+        <div class="container download-banner reveal">
+          <div>
+            <span class="status">WINDOWS · v1.3.1</span>
+            <h2>Download the complete RC platform.</h2>
+            <p>
+              Native maximized desktop interface, secure in-app AWS connection,
+              all scanner modules, IAM graph, demonstration model, optional
+              Gemini explanations and guarded S3/Security Group fixes.
+            </p>
+          </div>
+          <a
+            class="btn btn-primary"
+            href="../downloads/RC-AI-Cloud-Security-Platform-Windows-v1.3.1.zip"
+            download
+            >Download RC for Windows</a
+          >
+        </div>
+      </section>
+      <section class="section" style="padding-top: 20px">
+        <div class="container case-layout">
+          <article class="article">
+            <div class="callout">
+              A practical student-built platform combining threat detection,
+              identity security, cloud posture checks, network monitoring, Zero
+              Trust scoring, AI-assisted explanations and operator-confirmed
+              cloud remediation.
+            </div>
+            <h2 id="overview">Overview</h2>
+            <p>
+              The platform connects to AWS through boto3 and runs Streamlit
+              inside a native Windows desktop window. Operators connect from the
+              AWS page using an access key or existing AWS profile, then run
+              individual scanners and download evidence without maintaining an
+              external web server.
+            </p>
+            <h2 id="modules">Main modules</h2>
+            <ul>
+              <li>
+                <strong>Threat Detection:</strong> synthetic supervised-learning
+                path plus real CloudTrail anomaly detection, brute-force
+                detection and insider/external labeling.
+              </li>
+              <li>
+                <strong>IAM Security Audit:</strong> broad-policy
+                identification, shadow-admin escalation checks and
+                user-to-policy relationship mapping.
+              </li>
+              <li>
+                <strong>S3 Exposure Scanner:</strong> public-access
+                configuration and ACL review, with a guarded button to enable
+                all four bucket-level Block Public Access controls.
+              </li>
+              <li>
+                <strong>Security Group Scanner:</strong> dangerous ports exposed
+                to the internet, with exact-rule metadata and a guarded button
+                that removes only the selected public source.
+              </li>
+              <li>
+                <strong>VPC Flow Log Analyzer:</strong> suspicious network
+                patterns such as repeated rejected connections.
+              </li>
+              <li>
+                <strong>Zero Trust Engine:</strong> identity trust scoring from
+                permissions, MFA and behavioral findings.
+              </li>
+              <li>
+                <strong>Incident Reporting:</strong> consolidated findings with
+                an AI-generated executive explanation and cloud-change audit
+                trail.
+              </li>
+            </ul>
+            <h2 id="architecture">Architecture</h2>
+            <div class="architecture">
+              <div class="arch-node">
+                AWS IAM · S3 · EC2 · VPC · CloudTrail · CloudWatch
+              </div>
+              <div class="arch-arrow">↓</div>
+              <div class="arch-node">boto3 Python SDK</div>
+              <div class="arch-arrow">↓</div>
+              <div class="arch-node">
+                Feature engineering · Random Forest · Isolation Forest · Rule
+                checks
+              </div>
+              <div class="arch-arrow">↓</div>
+              <div class="arch-node">
+                Streamlit workspace · Native desktop window · NetworkX graph
+              </div>
+              <div class="arch-arrow">↓</div>
+              <div class="arch-node">
+                Gemini explanations and incident summaries
+              </div>
+            </div>
+            <h2 id="graph">IAM relationship graph</h2>
+            <p>
+              Blue nodes represent IAM identities, green nodes represent
+              lower-risk policies, and edges show which policies are attached to
+              each identity. This helps make broad access visible at a glance.
+            </p>
+            <img
+              src="../assets/iam-relationship-graph.png"
+              alt="IAM user and policy relationship graph"
+            />
+            <h2 id="security">Security decisions</h2>
+            <ul>
+              <li>
+                Credentials are entered in the local AWS page. Validated keys
+                can optionally be protected by Windows Credential Manager; they
+                are never placed in reports or source code.
+              </li>
+              <li>
+                Scanners use the included read-only IAM policy. The two fix
+                buttons remain disabled by AWS unless an administrator
+                separately attaches the narrow remediation policy.
+              </li>
+              <li>
+                The project is intended only for accounts the operator owns or
+                is authorized to assess.
+              </li>
+            </ul>
+            <h2 id="install">Install and connect</h2>
+            <ol>
+              <li>
+                Download the Windows ZIP and extract it completely. Do not run
+                the installer from inside the ZIP preview.
+              </li>
+              <li>
+                Double-click <code>Install_RC_CloudSec.bat</code>. Python 3.11
+                or 3.12 is required; the installer creates a private environment
+                and an RC desktop shortcut.
+              </li>
+              <li>
+                Open <strong>RC AI Cloud Security</strong>, select the AWS tab,
+                choose a Region and connect a dedicated IAM identity.
+              </li>
+              <li>
+                An <strong>AKIA</strong> key uses Access Key + Secret Key with
+                no session token. An <strong>ASIA</strong> temporary credential
+                requires Access Key + Secret Key + Session Token from the same
+                session.
+              </li>
+              <li>
+                Attach only <code>RCCloudSecReadOnlyPolicy.json</code> for
+                scanning. Attach the optional remediation policy only after the
+                AWS owner approves cloud changes.
+              </li>
+            </ol>
+            <div class="actions">
+              <a
+                class="btn btn-primary"
+                href="../downloads/RC-AI-Cloud-Security-Platform-Windows-v1.3.1.zip"
+                download
+                >Download Windows v1.3.1</a
+              >
+              <a class="btn" href="../downloads/SHA256-CHECKSUMS.txt" download
+                >Verify SHA-256</a
+              >
+            </div>
+            <h2 id="limitations">Honest limitations</h2>
+            <p>
+              The supervised classifier uses synthetic login data, so its
+              real-world accuracy is not assumed. Real CloudTrail activity is
+              handled through anomaly detection and rules. Continuous
+              verification runs only while the local application is open, and
+              the platform is not presented as a production managed security
+              service. One-button fixes are intentionally limited to selected S3
+              Block Public Access and Security Group ingress findings; IAM
+              changes require manual review to avoid lockout.
+            </p>
+          </article>
+          <aside class="toc">
+            <h3>On this page</h3>
+            <a href="#overview">Overview</a><a href="#modules">Modules</a
+            ><a href="#architecture">Architecture</a
+            ><a href="#graph">IAM graph</a
+            ><a href="#security">Security decisions</a
+            ><a href="#install">Install & connect</a
+            ><a href="#limitations">Limitations</a
+            ><a href="../downloads.html">Downloads</a
+            ><a href="../assets/Muhammed-Rafi-CV.pdf" target="_blank">Resume</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-row">
+        <div>© <span id="year"></span> Muhammed Rafi</div>
+        <div>Cybersecurity • Cloud • XAUUSD Research</div>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
