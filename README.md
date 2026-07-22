@@ -1,4 +1,4 @@
-# Rafi Portfolio Website — Redesign v2.7
+# Rafi Portfolio Website — Redesign v2.9
 
 Premium responsive static portfolio for Muhammed Rafi.
 
