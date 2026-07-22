@@ -1,4 +1,4 @@
-# Rafi Portfolio Website — Redesign v2.3
+# Rafi Portfolio Website — Redesign v2.5
 
 Premium responsive static portfolio for Muhammed Rafi.
 
@@ -6,6 +6,7 @@ Premium responsive static portfolio for Muhammed Rafi.
 - Home, About, Projects, Experience, Blog, Downloads, EA Lab and Contact
 - AI Powered Cloud Security Platform case study
 - RC AI Cloud Security v1.3.1 Windows download, checksum and installation guide
+- RAEA Trillax V1.1 private-purchase page ($299 USD; no public EA download)
 - AuRa X Signals case study
 - AuRa X News case study
 - AuRa X Prediction Tool case study
